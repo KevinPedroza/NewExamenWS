@@ -63,6 +63,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Components.cs" />
     <Compile Include="Connected Services\Pronostico\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

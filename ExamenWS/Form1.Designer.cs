@@ -227,6 +227,7 @@
             // 
             this.comboBox1.DataSource = this.proregionciudad;
             this.comboBox1.DisplayMember = "nombre";
+            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(12, 30);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
@@ -303,6 +304,7 @@
             // 
             this.cbxRegiones.DataSource = this.proregionaregion;
             this.cbxRegiones.DisplayMember = "nombre";
+            this.cbxRegiones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbxRegiones.FormattingEnabled = true;
             this.cbxRegiones.Location = new System.Drawing.Point(16, 30);
             this.cbxRegiones.Margin = new System.Windows.Forms.Padding(2);
@@ -423,6 +425,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox5.ResumeLayout(false);
