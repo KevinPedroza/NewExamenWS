@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="mr6iE452gS8P6uXCsrXKrChpGQs=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="FwJylsN6FK6tqU0bd7PXPIMam+I=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="WSMeteorologicoBinding">
       <properties>
@@ -221,7 +221,7 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="WSMeteorologico" contract="Pronostico.WSMeteorologico" bindingType="basicHttpBinding" address="https://www.imn.ac.cr/PORTAL_IMN_WS/WSMeteorologicoSoap" bindingConfiguration="WSMeteorologicoBinding">
+    <endpoint name="WSMeteorologico" contract="Prono.WSMeteorologico" bindingType="basicHttpBinding" address="https://www.imn.ac.cr/PORTAL_IMN_WS/WSMeteorologicoSoap" bindingConfiguration="WSMeteorologicoBinding">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>https://www.imn.ac.cr:443/PORTAL_IMN_WS/WSMeteorologicoSoap</serializedValue>
@@ -236,7 +236,7 @@
           <serializedValue>WSMeteorologicoBinding</serializedValue>
         </property>
         <property path="/contract" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>Pronostico.WSMeteorologico</serializedValue>
+          <serializedValue>Prono.WSMeteorologico</serializedValue>
         </property>
         <property path="/headers" isComplexType="true" isExplicitlyDefined="false" clrType="System.ServiceModel.Configuration.AddressHeaderCollectionElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>System.ServiceModel.Configuration.AddressHeaderCollectionElement</serializedValue>

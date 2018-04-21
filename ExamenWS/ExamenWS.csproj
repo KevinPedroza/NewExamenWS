@@ -63,8 +63,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Components.cs" />
-    <Compile Include="Connected Services\Pronostico\Reference.cs">
+    <Compile Include="Connected Services\Prono\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -75,6 +74,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Getting_Info.cs" />
     <Compile Include="ParseHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -92,47 +92,47 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="Connected Services\Pronostico\ExamenWS.Pronostico.efemeridesResponse.datasource">
+    <None Include="Connected Services\Prono\ExamenWS.Prono.efemeridesResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Pronostico\ExamenWS.Pronostico.estadoActualPorCiudadResponse.datasource">
+    <None Include="Connected Services\Prono\ExamenWS.Prono.estadoActualPorCiudadResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Pronostico\ExamenWS.Pronostico.estadoActualRegionalResponse.datasource">
+    <None Include="Connected Services\Prono\ExamenWS.Prono.estadoActualRegionalResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Pronostico\ExamenWS.Pronostico.fechaResponse.datasource">
+    <None Include="Connected Services\Prono\ExamenWS.Prono.fechaResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Pronostico\ExamenWS.Pronostico.horaResponse.datasource">
+    <None Include="Connected Services\Prono\ExamenWS.Prono.horaResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Pronostico\ExamenWS.Pronostico.pronosticoExtendidoCiudadResponse.datasource">
+    <None Include="Connected Services\Prono\ExamenWS.Prono.pronosticoExtendidoCiudadResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Pronostico\ExamenWS.Pronostico.pronosticoExtendidoCiudadxIDResponse.datasource">
+    <None Include="Connected Services\Prono\ExamenWS.Prono.pronosticoExtendidoCiudadxIDResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Pronostico\ExamenWS.Pronostico.pronosticoExtendidoRegionResponse.datasource">
+    <None Include="Connected Services\Prono\ExamenWS.Prono.pronosticoExtendidoRegionResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Pronostico\ExamenWS.Pronostico.pronosticoExtendidoRegionxIDResponse.datasource">
+    <None Include="Connected Services\Prono\ExamenWS.Prono.pronosticoExtendidoRegionxIDResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Pronostico\ExamenWS.Pronostico.pronosticoPorCiudadResponse.datasource">
+    <None Include="Connected Services\Prono\ExamenWS.Prono.pronosticoPorCiudadResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Pronostico\ExamenWS.Pronostico.pronosticoPorCiudadxIDResponse.datasource">
+    <None Include="Connected Services\Prono\ExamenWS.Prono.pronosticoPorCiudadxIDResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Pronostico\ExamenWS.Pronostico.pronosticoRegionalResponse.datasource">
+    <None Include="Connected Services\Prono\ExamenWS.Prono.pronosticoRegionalResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Pronostico\ExamenWS.Pronostico.pronosticoRegionalxIDResponse.datasource">
+    <None Include="Connected Services\Prono\ExamenWS.Prono.pronosticoRegionalxIDResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\Pronostico\WSMeteorologicoService.wsdl" />
-    <None Include="Connected Services\Pronostico\WSMeteorologicoSoap.xsd">
+    <None Include="Connected Services\Prono\WSMeteorologicoService.wsdl" />
+    <None Include="Connected Services\Prono\WSMeteorologicoSoap.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
@@ -155,25 +155,25 @@
     <None Include="Resources\Close Window_64px.png" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\Pronostico\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\Pronostico\configuration91.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\Pronostico\configuration.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\Pronostico\Reference.svcmap">
+    <None Include="Connected Services\Prono\configuration91.svcinfo" />
+    <None Include="Connected Services\Prono\configuration.svcinfo" />
+    <None Include="Connected Services\Prono\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+    <Content Include="GoogleMaps.LocationServices.readme.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="GoogleMaps.LocationServices.readme.txt" />
+    <ProjectReference Include="..\Capa_Negocios\Capa_Negocios.csproj">
+      <Project>{d28483a5-0f8c-498e-95b3-1dd49c9434b5}</Project>
+      <Name>Capa_Negocios</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\Prono\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

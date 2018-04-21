@@ -322,11 +322,11 @@
             // 
             this.groupBox3.Controls.Add(this.lblFaseLunar);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(377, 233);
+            this.groupBox3.Location = new System.Drawing.Point(357, 233);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox3.Size = new System.Drawing.Size(297, 91);
+            this.groupBox3.Size = new System.Drawing.Size(317, 91);
             this.groupBox3.TabIndex = 8;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Fase Lunar";
@@ -346,11 +346,11 @@
             this.groupBox2.Controls.Add(this.lblLunaPone);
             this.groupBox2.Controls.Add(this.lblLunaSale);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(528, 110);
+            this.groupBox2.Location = new System.Drawing.Point(518, 110);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox2.Size = new System.Drawing.Size(140, 91);
+            this.groupBox2.Size = new System.Drawing.Size(156, 91);
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Luna:";
@@ -380,11 +380,11 @@
             this.groupBox1.Controls.Add(this.lblSolPone);
             this.groupBox1.Controls.Add(this.lblSolSale);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(377, 110);
+            this.groupBox1.Location = new System.Drawing.Point(357, 110);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox1.Size = new System.Drawing.Size(148, 91);
+            this.groupBox1.Size = new System.Drawing.Size(157, 91);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Sol:";
@@ -402,7 +402,7 @@
             // lblSolSale
             // 
             this.lblSolSale.AutoSize = true;
-            this.lblSolSale.Location = new System.Drawing.Point(8, 31);
+            this.lblSolSale.Location = new System.Drawing.Point(4, 31);
             this.lblSolSale.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSolSale.Name = "lblSolSale";
             this.lblSolSale.Size = new System.Drawing.Size(45, 20);

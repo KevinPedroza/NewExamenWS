@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1ba87a6c-466c-4420-b142-876d16c89565" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="568a938c-36c7-4799-a05f-619ed5aaabed" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,8 +22,8 @@
     <MetadataSource Address="https://www.imn.ac.cr/PORTAL_IMN_WS/WSMeteorologicoSoap?wsdl" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="WSMeteorologicoSoap.xsd" MetadataType="Schema" ID="fea5e71f-3704-41f7-ae2d-4859de355e7e" SourceId="1" SourceUrl="https://www.imn.ac.cr/PORTAL_IMN_WS/WSMeteorologicoSoap?xsd=1" />
-    <MetadataFile FileName="WSMeteorologicoService.wsdl" MetadataType="Wsdl" ID="47d57b49-62f9-4be5-9ca1-2099d8200cc2" SourceId="1" SourceUrl="https://www.imn.ac.cr/PORTAL_IMN_WS/WSMeteorologicoSoap?wsdl" />
+    <MetadataFile FileName="WSMeteorologicoSoap.xsd" MetadataType="Schema" ID="fecbb937-c8ce-4e59-b83e-bb3a0606ca82" SourceId="1" SourceUrl="https://www.imn.ac.cr/PORTAL_IMN_WS/WSMeteorologicoSoap?xsd=1" />
+    <MetadataFile FileName="WSMeteorologicoService.wsdl" MetadataType="Wsdl" ID="1c1355df-c61b-478a-9513-e9f00840e3fb" SourceId="1" SourceUrl="https://www.imn.ac.cr/PORTAL_IMN_WS/WSMeteorologicoSoap?wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

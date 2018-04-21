@@ -8,129 +8,129 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ExamenWS.Pronostico {
+namespace ExamenWS.Prono {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="Pronostico.WSMeteorologico")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="Prono.WSMeteorologico")]
     public interface WSMeteorologico {
         
         // CODEGEN: Se está generando un contrato de mensaje, ya que la operación pronosticoPorCiudad no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(baseDO))]
-        ExamenWS.Pronostico.pronosticoPorCiudadResponse pronosticoPorCiudad(ExamenWS.Pronostico.pronosticoPorCiudadRequest request);
+        ExamenWS.Prono.pronosticoPorCiudadResponse pronosticoPorCiudad(ExamenWS.Prono.pronosticoPorCiudadRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
-        System.Threading.Tasks.Task<ExamenWS.Pronostico.pronosticoPorCiudadResponse> pronosticoPorCiudadAsync(ExamenWS.Pronostico.pronosticoPorCiudadRequest request);
+        System.Threading.Tasks.Task<ExamenWS.Prono.pronosticoPorCiudadResponse> pronosticoPorCiudadAsync(ExamenWS.Prono.pronosticoPorCiudadRequest request);
         
         // CODEGEN: Se está generando un contrato de mensaje, ya que la operación estadoActualPorCiudad no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(baseDO))]
-        ExamenWS.Pronostico.estadoActualPorCiudadResponse estadoActualPorCiudad(ExamenWS.Pronostico.estadoActualPorCiudadRequest request);
+        ExamenWS.Prono.estadoActualPorCiudadResponse estadoActualPorCiudad(ExamenWS.Prono.estadoActualPorCiudadRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
-        System.Threading.Tasks.Task<ExamenWS.Pronostico.estadoActualPorCiudadResponse> estadoActualPorCiudadAsync(ExamenWS.Pronostico.estadoActualPorCiudadRequest request);
+        System.Threading.Tasks.Task<ExamenWS.Prono.estadoActualPorCiudadResponse> estadoActualPorCiudadAsync(ExamenWS.Prono.estadoActualPorCiudadRequest request);
         
         // CODEGEN: Se está generando un contrato de mensaje, ya que la operación pronosticoPorCiudadxID no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(baseDO))]
-        ExamenWS.Pronostico.pronosticoPorCiudadxIDResponse pronosticoPorCiudadxID(ExamenWS.Pronostico.pronosticoPorCiudadxIDRequest request);
+        ExamenWS.Prono.pronosticoPorCiudadxIDResponse pronosticoPorCiudadxID(ExamenWS.Prono.pronosticoPorCiudadxIDRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
-        System.Threading.Tasks.Task<ExamenWS.Pronostico.pronosticoPorCiudadxIDResponse> pronosticoPorCiudadxIDAsync(ExamenWS.Pronostico.pronosticoPorCiudadxIDRequest request);
+        System.Threading.Tasks.Task<ExamenWS.Prono.pronosticoPorCiudadxIDResponse> pronosticoPorCiudadxIDAsync(ExamenWS.Prono.pronosticoPorCiudadxIDRequest request);
         
         // CODEGEN: Se está generando un contrato de mensaje, ya que la operación pronosticoRegional no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(baseDO))]
-        ExamenWS.Pronostico.pronosticoRegionalResponse pronosticoRegional(ExamenWS.Pronostico.pronosticoRegionalRequest request);
+        ExamenWS.Prono.pronosticoRegionalResponse pronosticoRegional(ExamenWS.Prono.pronosticoRegionalRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
-        System.Threading.Tasks.Task<ExamenWS.Pronostico.pronosticoRegionalResponse> pronosticoRegionalAsync(ExamenWS.Pronostico.pronosticoRegionalRequest request);
+        System.Threading.Tasks.Task<ExamenWS.Prono.pronosticoRegionalResponse> pronosticoRegionalAsync(ExamenWS.Prono.pronosticoRegionalRequest request);
         
         // CODEGEN: Se está generando un contrato de mensaje, ya que la operación pronosticoRegionalxID no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(baseDO))]
-        ExamenWS.Pronostico.pronosticoRegionalxIDResponse pronosticoRegionalxID(ExamenWS.Pronostico.pronosticoRegionalxIDRequest request);
+        ExamenWS.Prono.pronosticoRegionalxIDResponse pronosticoRegionalxID(ExamenWS.Prono.pronosticoRegionalxIDRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
-        System.Threading.Tasks.Task<ExamenWS.Pronostico.pronosticoRegionalxIDResponse> pronosticoRegionalxIDAsync(ExamenWS.Pronostico.pronosticoRegionalxIDRequest request);
+        System.Threading.Tasks.Task<ExamenWS.Prono.pronosticoRegionalxIDResponse> pronosticoRegionalxIDAsync(ExamenWS.Prono.pronosticoRegionalxIDRequest request);
         
         // CODEGEN: Se está generando un contrato de mensaje, ya que la operación pronosticoExtendidoCiudad no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(baseDO))]
-        ExamenWS.Pronostico.pronosticoExtendidoCiudadResponse pronosticoExtendidoCiudad(ExamenWS.Pronostico.pronosticoExtendidoCiudadRequest request);
+        ExamenWS.Prono.pronosticoExtendidoCiudadResponse pronosticoExtendidoCiudad(ExamenWS.Prono.pronosticoExtendidoCiudadRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
-        System.Threading.Tasks.Task<ExamenWS.Pronostico.pronosticoExtendidoCiudadResponse> pronosticoExtendidoCiudadAsync(ExamenWS.Pronostico.pronosticoExtendidoCiudadRequest request);
+        System.Threading.Tasks.Task<ExamenWS.Prono.pronosticoExtendidoCiudadResponse> pronosticoExtendidoCiudadAsync(ExamenWS.Prono.pronosticoExtendidoCiudadRequest request);
         
         // CODEGEN: Se está generando un contrato de mensaje, ya que la operación pronosticoExtendidoCiudadxID no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(baseDO))]
-        ExamenWS.Pronostico.pronosticoExtendidoCiudadxIDResponse pronosticoExtendidoCiudadxID(ExamenWS.Pronostico.pronosticoExtendidoCiudadxIDRequest request);
+        ExamenWS.Prono.pronosticoExtendidoCiudadxIDResponse pronosticoExtendidoCiudadxID(ExamenWS.Prono.pronosticoExtendidoCiudadxIDRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
-        System.Threading.Tasks.Task<ExamenWS.Pronostico.pronosticoExtendidoCiudadxIDResponse> pronosticoExtendidoCiudadxIDAsync(ExamenWS.Pronostico.pronosticoExtendidoCiudadxIDRequest request);
+        System.Threading.Tasks.Task<ExamenWS.Prono.pronosticoExtendidoCiudadxIDResponse> pronosticoExtendidoCiudadxIDAsync(ExamenWS.Prono.pronosticoExtendidoCiudadxIDRequest request);
         
         // CODEGEN: Se está generando un contrato de mensaje, ya que la operación pronosticoExtendidoRegion no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(baseDO))]
-        ExamenWS.Pronostico.pronosticoExtendidoRegionResponse pronosticoExtendidoRegion(ExamenWS.Pronostico.pronosticoExtendidoRegionRequest request);
+        ExamenWS.Prono.pronosticoExtendidoRegionResponse pronosticoExtendidoRegion(ExamenWS.Prono.pronosticoExtendidoRegionRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
-        System.Threading.Tasks.Task<ExamenWS.Pronostico.pronosticoExtendidoRegionResponse> pronosticoExtendidoRegionAsync(ExamenWS.Pronostico.pronosticoExtendidoRegionRequest request);
+        System.Threading.Tasks.Task<ExamenWS.Prono.pronosticoExtendidoRegionResponse> pronosticoExtendidoRegionAsync(ExamenWS.Prono.pronosticoExtendidoRegionRequest request);
         
         // CODEGEN: Se está generando un contrato de mensaje, ya que la operación pronosticoExtendidoRegionxID no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(baseDO))]
-        ExamenWS.Pronostico.pronosticoExtendidoRegionxIDResponse pronosticoExtendidoRegionxID(ExamenWS.Pronostico.pronosticoExtendidoRegionxIDRequest request);
+        ExamenWS.Prono.pronosticoExtendidoRegionxIDResponse pronosticoExtendidoRegionxID(ExamenWS.Prono.pronosticoExtendidoRegionxIDRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
-        System.Threading.Tasks.Task<ExamenWS.Pronostico.pronosticoExtendidoRegionxIDResponse> pronosticoExtendidoRegionxIDAsync(ExamenWS.Pronostico.pronosticoExtendidoRegionxIDRequest request);
+        System.Threading.Tasks.Task<ExamenWS.Prono.pronosticoExtendidoRegionxIDResponse> pronosticoExtendidoRegionxIDAsync(ExamenWS.Prono.pronosticoExtendidoRegionxIDRequest request);
         
         // CODEGEN: Se está generando un contrato de mensaje, ya que la operación efemerides no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(baseDO))]
-        ExamenWS.Pronostico.efemeridesResponse efemerides(ExamenWS.Pronostico.efemeridesRequest request);
+        ExamenWS.Prono.efemeridesResponse efemerides(ExamenWS.Prono.efemeridesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
-        System.Threading.Tasks.Task<ExamenWS.Pronostico.efemeridesResponse> efemeridesAsync(ExamenWS.Pronostico.efemeridesRequest request);
+        System.Threading.Tasks.Task<ExamenWS.Prono.efemeridesResponse> efemeridesAsync(ExamenWS.Prono.efemeridesRequest request);
         
         // CODEGEN: Se está generando un contrato de mensaje, ya que la operación fecha no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(baseDO))]
-        ExamenWS.Pronostico.fechaResponse fecha(ExamenWS.Pronostico.fechaRequest request);
+        ExamenWS.Prono.fechaResponse fecha(ExamenWS.Prono.fechaRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
-        System.Threading.Tasks.Task<ExamenWS.Pronostico.fechaResponse> fechaAsync(ExamenWS.Pronostico.fechaRequest request);
+        System.Threading.Tasks.Task<ExamenWS.Prono.fechaResponse> fechaAsync(ExamenWS.Prono.fechaRequest request);
         
         // CODEGEN: Se está generando un contrato de mensaje, ya que la operación hora no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(baseDO))]
-        ExamenWS.Pronostico.horaResponse hora(ExamenWS.Pronostico.horaRequest request);
+        ExamenWS.Prono.horaResponse hora(ExamenWS.Prono.horaRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
-        System.Threading.Tasks.Task<ExamenWS.Pronostico.horaResponse> horaAsync(ExamenWS.Pronostico.horaRequest request);
+        System.Threading.Tasks.Task<ExamenWS.Prono.horaResponse> horaAsync(ExamenWS.Prono.horaRequest request);
         
         // CODEGEN: Se está generando un contrato de mensaje, ya que la operación estadoActualRegional no es RPC ni está encapsulada en un documento.
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(baseDO))]
-        ExamenWS.Pronostico.estadoActualRegionalResponse estadoActualRegional(ExamenWS.Pronostico.estadoActualRegionalRequest request);
+        ExamenWS.Prono.estadoActualRegionalResponse estadoActualRegional(ExamenWS.Prono.estadoActualRegionalRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="", ReplyAction="*")]
-        System.Threading.Tasks.Task<ExamenWS.Pronostico.estadoActualRegionalResponse> estadoActualRegionalAsync(ExamenWS.Pronostico.estadoActualRegionalRequest request);
+        System.Threading.Tasks.Task<ExamenWS.Prono.estadoActualRegionalResponse> estadoActualRegionalAsync(ExamenWS.Prono.estadoActualRegionalRequest request);
     }
     
     /// <remarks/>
@@ -2989,12 +2989,12 @@ namespace ExamenWS.Pronostico {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public ExamenWS.Pronostico.pronosticoCiudad pronosticoPorCiudad;
+        public ExamenWS.Prono.pronosticoCiudad pronosticoPorCiudad;
         
         public pronosticoPorCiudadRequest() {
         }
         
-        public pronosticoPorCiudadRequest(ExamenWS.Pronostico.pronosticoCiudad pronosticoPorCiudad) {
+        public pronosticoPorCiudadRequest(ExamenWS.Prono.pronosticoCiudad pronosticoPorCiudad) {
             this.pronosticoPorCiudad = pronosticoPorCiudad;
         }
     }
@@ -3025,12 +3025,12 @@ namespace ExamenWS.Pronostico {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public ExamenWS.Pronostico.pronosticoCiudad estadoActualPorCiudad;
+        public ExamenWS.Prono.pronosticoCiudad estadoActualPorCiudad;
         
         public estadoActualPorCiudadRequest() {
         }
         
-        public estadoActualPorCiudadRequest(ExamenWS.Pronostico.pronosticoCiudad estadoActualPorCiudad) {
+        public estadoActualPorCiudadRequest(ExamenWS.Prono.pronosticoCiudad estadoActualPorCiudad) {
             this.estadoActualPorCiudad = estadoActualPorCiudad;
         }
     }
@@ -3096,12 +3096,12 @@ namespace ExamenWS.Pronostico {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public ExamenWS.Pronostico.pronosticoRegion pronosticoRegional;
+        public ExamenWS.Prono.pronosticoRegion pronosticoRegional;
         
         public pronosticoRegionalRequest() {
         }
         
-        public pronosticoRegionalRequest(ExamenWS.Pronostico.pronosticoRegion pronosticoRegional) {
+        public pronosticoRegionalRequest(ExamenWS.Prono.pronosticoRegion pronosticoRegional) {
             this.pronosticoRegional = pronosticoRegional;
         }
     }
@@ -3167,12 +3167,12 @@ namespace ExamenWS.Pronostico {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public ExamenWS.Pronostico.pronosticoCiudad pronosticoExtendidoCiudad;
+        public ExamenWS.Prono.pronosticoCiudad pronosticoExtendidoCiudad;
         
         public pronosticoExtendidoCiudadRequest() {
         }
         
-        public pronosticoExtendidoCiudadRequest(ExamenWS.Pronostico.pronosticoCiudad pronosticoExtendidoCiudad) {
+        public pronosticoExtendidoCiudadRequest(ExamenWS.Prono.pronosticoCiudad pronosticoExtendidoCiudad) {
             this.pronosticoExtendidoCiudad = pronosticoExtendidoCiudad;
         }
     }
@@ -3238,12 +3238,12 @@ namespace ExamenWS.Pronostico {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public ExamenWS.Pronostico.pronosticoRegion pronosticoExtendidoRegion;
+        public ExamenWS.Prono.pronosticoRegion pronosticoExtendidoRegion;
         
         public pronosticoExtendidoRegionRequest() {
         }
         
-        public pronosticoExtendidoRegionRequest(ExamenWS.Pronostico.pronosticoRegion pronosticoExtendidoRegion) {
+        public pronosticoExtendidoRegionRequest(ExamenWS.Prono.pronosticoRegion pronosticoExtendidoRegion) {
             this.pronosticoExtendidoRegion = pronosticoExtendidoRegion;
         }
     }
@@ -3309,12 +3309,12 @@ namespace ExamenWS.Pronostico {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public ExamenWS.Pronostico.efemerides efemerides;
+        public ExamenWS.Prono.efemerides efemerides;
         
         public efemeridesRequest() {
         }
         
-        public efemeridesRequest(ExamenWS.Pronostico.efemerides efemerides) {
+        public efemeridesRequest(ExamenWS.Prono.efemerides efemerides) {
             this.efemerides = efemerides;
         }
     }
@@ -3417,12 +3417,12 @@ namespace ExamenWS.Pronostico {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public ExamenWS.Pronostico.pronosticoRegion estadoActualRegional;
+        public ExamenWS.Prono.pronosticoRegion estadoActualRegional;
         
         public estadoActualRegionalRequest() {
         }
         
-        public estadoActualRegionalRequest(ExamenWS.Pronostico.pronosticoRegion estadoActualRegional) {
+        public estadoActualRegionalRequest(ExamenWS.Prono.pronosticoRegion estadoActualRegional) {
             this.estadoActualRegional = estadoActualRegional;
         }
     }
@@ -3446,12 +3446,12 @@ namespace ExamenWS.Pronostico {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface WSMeteorologicoChannel : ExamenWS.Pronostico.WSMeteorologico, System.ServiceModel.IClientChannel {
+    public interface WSMeteorologicoChannel : ExamenWS.Prono.WSMeteorologico, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class WSMeteorologicoClient : System.ServiceModel.ClientBase<ExamenWS.Pronostico.WSMeteorologico>, ExamenWS.Pronostico.WSMeteorologico {
+    public partial class WSMeteorologicoClient : System.ServiceModel.ClientBase<ExamenWS.Prono.WSMeteorologico>, ExamenWS.Prono.WSMeteorologico {
         
         public WSMeteorologicoClient() {
         }
@@ -3473,302 +3473,302 @@ namespace ExamenWS.Pronostico {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        ExamenWS.Pronostico.pronosticoPorCiudadResponse ExamenWS.Pronostico.WSMeteorologico.pronosticoPorCiudad(ExamenWS.Pronostico.pronosticoPorCiudadRequest request) {
+        ExamenWS.Prono.pronosticoPorCiudadResponse ExamenWS.Prono.WSMeteorologico.pronosticoPorCiudad(ExamenWS.Prono.pronosticoPorCiudadRequest request) {
             return base.Channel.pronosticoPorCiudad(request);
         }
         
-        public string pronosticoPorCiudad(ExamenWS.Pronostico.pronosticoCiudad pronosticoPorCiudad1) {
-            ExamenWS.Pronostico.pronosticoPorCiudadRequest inValue = new ExamenWS.Pronostico.pronosticoPorCiudadRequest();
+        public string pronosticoPorCiudad(ExamenWS.Prono.pronosticoCiudad pronosticoPorCiudad1) {
+            ExamenWS.Prono.pronosticoPorCiudadRequest inValue = new ExamenWS.Prono.pronosticoPorCiudadRequest();
             inValue.pronosticoPorCiudad = pronosticoPorCiudad1;
-            ExamenWS.Pronostico.pronosticoPorCiudadResponse retVal = ((ExamenWS.Pronostico.WSMeteorologico)(this)).pronosticoPorCiudad(inValue);
+            ExamenWS.Prono.pronosticoPorCiudadResponse retVal = ((ExamenWS.Prono.WSMeteorologico)(this)).pronosticoPorCiudad(inValue);
             return retVal.pronosticoPorCiudadResponse1;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ExamenWS.Pronostico.pronosticoPorCiudadResponse> ExamenWS.Pronostico.WSMeteorologico.pronosticoPorCiudadAsync(ExamenWS.Pronostico.pronosticoPorCiudadRequest request) {
+        System.Threading.Tasks.Task<ExamenWS.Prono.pronosticoPorCiudadResponse> ExamenWS.Prono.WSMeteorologico.pronosticoPorCiudadAsync(ExamenWS.Prono.pronosticoPorCiudadRequest request) {
             return base.Channel.pronosticoPorCiudadAsync(request);
         }
         
-        public System.Threading.Tasks.Task<ExamenWS.Pronostico.pronosticoPorCiudadResponse> pronosticoPorCiudadAsync(ExamenWS.Pronostico.pronosticoCiudad pronosticoPorCiudad) {
-            ExamenWS.Pronostico.pronosticoPorCiudadRequest inValue = new ExamenWS.Pronostico.pronosticoPorCiudadRequest();
+        public System.Threading.Tasks.Task<ExamenWS.Prono.pronosticoPorCiudadResponse> pronosticoPorCiudadAsync(ExamenWS.Prono.pronosticoCiudad pronosticoPorCiudad) {
+            ExamenWS.Prono.pronosticoPorCiudadRequest inValue = new ExamenWS.Prono.pronosticoPorCiudadRequest();
             inValue.pronosticoPorCiudad = pronosticoPorCiudad;
-            return ((ExamenWS.Pronostico.WSMeteorologico)(this)).pronosticoPorCiudadAsync(inValue);
+            return ((ExamenWS.Prono.WSMeteorologico)(this)).pronosticoPorCiudadAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        ExamenWS.Pronostico.estadoActualPorCiudadResponse ExamenWS.Pronostico.WSMeteorologico.estadoActualPorCiudad(ExamenWS.Pronostico.estadoActualPorCiudadRequest request) {
+        ExamenWS.Prono.estadoActualPorCiudadResponse ExamenWS.Prono.WSMeteorologico.estadoActualPorCiudad(ExamenWS.Prono.estadoActualPorCiudadRequest request) {
             return base.Channel.estadoActualPorCiudad(request);
         }
         
-        public string estadoActualPorCiudad(ExamenWS.Pronostico.pronosticoCiudad estadoActualPorCiudad1) {
-            ExamenWS.Pronostico.estadoActualPorCiudadRequest inValue = new ExamenWS.Pronostico.estadoActualPorCiudadRequest();
+        public string estadoActualPorCiudad(ExamenWS.Prono.pronosticoCiudad estadoActualPorCiudad1) {
+            ExamenWS.Prono.estadoActualPorCiudadRequest inValue = new ExamenWS.Prono.estadoActualPorCiudadRequest();
             inValue.estadoActualPorCiudad = estadoActualPorCiudad1;
-            ExamenWS.Pronostico.estadoActualPorCiudadResponse retVal = ((ExamenWS.Pronostico.WSMeteorologico)(this)).estadoActualPorCiudad(inValue);
+            ExamenWS.Prono.estadoActualPorCiudadResponse retVal = ((ExamenWS.Prono.WSMeteorologico)(this)).estadoActualPorCiudad(inValue);
             return retVal.estadoActualPorCiudadResponse1;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ExamenWS.Pronostico.estadoActualPorCiudadResponse> ExamenWS.Pronostico.WSMeteorologico.estadoActualPorCiudadAsync(ExamenWS.Pronostico.estadoActualPorCiudadRequest request) {
+        System.Threading.Tasks.Task<ExamenWS.Prono.estadoActualPorCiudadResponse> ExamenWS.Prono.WSMeteorologico.estadoActualPorCiudadAsync(ExamenWS.Prono.estadoActualPorCiudadRequest request) {
             return base.Channel.estadoActualPorCiudadAsync(request);
         }
         
-        public System.Threading.Tasks.Task<ExamenWS.Pronostico.estadoActualPorCiudadResponse> estadoActualPorCiudadAsync(ExamenWS.Pronostico.pronosticoCiudad estadoActualPorCiudad) {
-            ExamenWS.Pronostico.estadoActualPorCiudadRequest inValue = new ExamenWS.Pronostico.estadoActualPorCiudadRequest();
+        public System.Threading.Tasks.Task<ExamenWS.Prono.estadoActualPorCiudadResponse> estadoActualPorCiudadAsync(ExamenWS.Prono.pronosticoCiudad estadoActualPorCiudad) {
+            ExamenWS.Prono.estadoActualPorCiudadRequest inValue = new ExamenWS.Prono.estadoActualPorCiudadRequest();
             inValue.estadoActualPorCiudad = estadoActualPorCiudad;
-            return ((ExamenWS.Pronostico.WSMeteorologico)(this)).estadoActualPorCiudadAsync(inValue);
+            return ((ExamenWS.Prono.WSMeteorologico)(this)).estadoActualPorCiudadAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        ExamenWS.Pronostico.pronosticoPorCiudadxIDResponse ExamenWS.Pronostico.WSMeteorologico.pronosticoPorCiudadxID(ExamenWS.Pronostico.pronosticoPorCiudadxIDRequest request) {
+        ExamenWS.Prono.pronosticoPorCiudadxIDResponse ExamenWS.Prono.WSMeteorologico.pronosticoPorCiudadxID(ExamenWS.Prono.pronosticoPorCiudadxIDRequest request) {
             return base.Channel.pronosticoPorCiudadxID(request);
         }
         
         public string pronosticoPorCiudadxID(int pronosticoPorCiudadxID1) {
-            ExamenWS.Pronostico.pronosticoPorCiudadxIDRequest inValue = new ExamenWS.Pronostico.pronosticoPorCiudadxIDRequest();
+            ExamenWS.Prono.pronosticoPorCiudadxIDRequest inValue = new ExamenWS.Prono.pronosticoPorCiudadxIDRequest();
             inValue.pronosticoPorCiudadxID = pronosticoPorCiudadxID1;
-            ExamenWS.Pronostico.pronosticoPorCiudadxIDResponse retVal = ((ExamenWS.Pronostico.WSMeteorologico)(this)).pronosticoPorCiudadxID(inValue);
+            ExamenWS.Prono.pronosticoPorCiudadxIDResponse retVal = ((ExamenWS.Prono.WSMeteorologico)(this)).pronosticoPorCiudadxID(inValue);
             return retVal.pronosticoPorCiudadxIDResponse1;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ExamenWS.Pronostico.pronosticoPorCiudadxIDResponse> ExamenWS.Pronostico.WSMeteorologico.pronosticoPorCiudadxIDAsync(ExamenWS.Pronostico.pronosticoPorCiudadxIDRequest request) {
+        System.Threading.Tasks.Task<ExamenWS.Prono.pronosticoPorCiudadxIDResponse> ExamenWS.Prono.WSMeteorologico.pronosticoPorCiudadxIDAsync(ExamenWS.Prono.pronosticoPorCiudadxIDRequest request) {
             return base.Channel.pronosticoPorCiudadxIDAsync(request);
         }
         
-        public System.Threading.Tasks.Task<ExamenWS.Pronostico.pronosticoPorCiudadxIDResponse> pronosticoPorCiudadxIDAsync(int pronosticoPorCiudadxID) {
-            ExamenWS.Pronostico.pronosticoPorCiudadxIDRequest inValue = new ExamenWS.Pronostico.pronosticoPorCiudadxIDRequest();
+        public System.Threading.Tasks.Task<ExamenWS.Prono.pronosticoPorCiudadxIDResponse> pronosticoPorCiudadxIDAsync(int pronosticoPorCiudadxID) {
+            ExamenWS.Prono.pronosticoPorCiudadxIDRequest inValue = new ExamenWS.Prono.pronosticoPorCiudadxIDRequest();
             inValue.pronosticoPorCiudadxID = pronosticoPorCiudadxID;
-            return ((ExamenWS.Pronostico.WSMeteorologico)(this)).pronosticoPorCiudadxIDAsync(inValue);
+            return ((ExamenWS.Prono.WSMeteorologico)(this)).pronosticoPorCiudadxIDAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        ExamenWS.Pronostico.pronosticoRegionalResponse ExamenWS.Pronostico.WSMeteorologico.pronosticoRegional(ExamenWS.Pronostico.pronosticoRegionalRequest request) {
+        ExamenWS.Prono.pronosticoRegionalResponse ExamenWS.Prono.WSMeteorologico.pronosticoRegional(ExamenWS.Prono.pronosticoRegionalRequest request) {
             return base.Channel.pronosticoRegional(request);
         }
         
-        public string pronosticoRegional(ExamenWS.Pronostico.pronosticoRegion pronosticoRegional1) {
-            ExamenWS.Pronostico.pronosticoRegionalRequest inValue = new ExamenWS.Pronostico.pronosticoRegionalRequest();
+        public string pronosticoRegional(ExamenWS.Prono.pronosticoRegion pronosticoRegional1) {
+            ExamenWS.Prono.pronosticoRegionalRequest inValue = new ExamenWS.Prono.pronosticoRegionalRequest();
             inValue.pronosticoRegional = pronosticoRegional1;
-            ExamenWS.Pronostico.pronosticoRegionalResponse retVal = ((ExamenWS.Pronostico.WSMeteorologico)(this)).pronosticoRegional(inValue);
+            ExamenWS.Prono.pronosticoRegionalResponse retVal = ((ExamenWS.Prono.WSMeteorologico)(this)).pronosticoRegional(inValue);
             return retVal.pronosticoRegionalResponse1;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ExamenWS.Pronostico.pronosticoRegionalResponse> ExamenWS.Pronostico.WSMeteorologico.pronosticoRegionalAsync(ExamenWS.Pronostico.pronosticoRegionalRequest request) {
+        System.Threading.Tasks.Task<ExamenWS.Prono.pronosticoRegionalResponse> ExamenWS.Prono.WSMeteorologico.pronosticoRegionalAsync(ExamenWS.Prono.pronosticoRegionalRequest request) {
             return base.Channel.pronosticoRegionalAsync(request);
         }
         
-        public System.Threading.Tasks.Task<ExamenWS.Pronostico.pronosticoRegionalResponse> pronosticoRegionalAsync(ExamenWS.Pronostico.pronosticoRegion pronosticoRegional) {
-            ExamenWS.Pronostico.pronosticoRegionalRequest inValue = new ExamenWS.Pronostico.pronosticoRegionalRequest();
+        public System.Threading.Tasks.Task<ExamenWS.Prono.pronosticoRegionalResponse> pronosticoRegionalAsync(ExamenWS.Prono.pronosticoRegion pronosticoRegional) {
+            ExamenWS.Prono.pronosticoRegionalRequest inValue = new ExamenWS.Prono.pronosticoRegionalRequest();
             inValue.pronosticoRegional = pronosticoRegional;
-            return ((ExamenWS.Pronostico.WSMeteorologico)(this)).pronosticoRegionalAsync(inValue);
+            return ((ExamenWS.Prono.WSMeteorologico)(this)).pronosticoRegionalAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        ExamenWS.Pronostico.pronosticoRegionalxIDResponse ExamenWS.Pronostico.WSMeteorologico.pronosticoRegionalxID(ExamenWS.Pronostico.pronosticoRegionalxIDRequest request) {
+        ExamenWS.Prono.pronosticoRegionalxIDResponse ExamenWS.Prono.WSMeteorologico.pronosticoRegionalxID(ExamenWS.Prono.pronosticoRegionalxIDRequest request) {
             return base.Channel.pronosticoRegionalxID(request);
         }
         
         public string pronosticoRegionalxID(int pronosticoRegionalxID1) {
-            ExamenWS.Pronostico.pronosticoRegionalxIDRequest inValue = new ExamenWS.Pronostico.pronosticoRegionalxIDRequest();
+            ExamenWS.Prono.pronosticoRegionalxIDRequest inValue = new ExamenWS.Prono.pronosticoRegionalxIDRequest();
             inValue.pronosticoRegionalxID = pronosticoRegionalxID1;
-            ExamenWS.Pronostico.pronosticoRegionalxIDResponse retVal = ((ExamenWS.Pronostico.WSMeteorologico)(this)).pronosticoRegionalxID(inValue);
+            ExamenWS.Prono.pronosticoRegionalxIDResponse retVal = ((ExamenWS.Prono.WSMeteorologico)(this)).pronosticoRegionalxID(inValue);
             return retVal.pronosticoRegionalxIDResponse1;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ExamenWS.Pronostico.pronosticoRegionalxIDResponse> ExamenWS.Pronostico.WSMeteorologico.pronosticoRegionalxIDAsync(ExamenWS.Pronostico.pronosticoRegionalxIDRequest request) {
+        System.Threading.Tasks.Task<ExamenWS.Prono.pronosticoRegionalxIDResponse> ExamenWS.Prono.WSMeteorologico.pronosticoRegionalxIDAsync(ExamenWS.Prono.pronosticoRegionalxIDRequest request) {
             return base.Channel.pronosticoRegionalxIDAsync(request);
         }
         
-        public System.Threading.Tasks.Task<ExamenWS.Pronostico.pronosticoRegionalxIDResponse> pronosticoRegionalxIDAsync(int pronosticoRegionalxID) {
-            ExamenWS.Pronostico.pronosticoRegionalxIDRequest inValue = new ExamenWS.Pronostico.pronosticoRegionalxIDRequest();
+        public System.Threading.Tasks.Task<ExamenWS.Prono.pronosticoRegionalxIDResponse> pronosticoRegionalxIDAsync(int pronosticoRegionalxID) {
+            ExamenWS.Prono.pronosticoRegionalxIDRequest inValue = new ExamenWS.Prono.pronosticoRegionalxIDRequest();
             inValue.pronosticoRegionalxID = pronosticoRegionalxID;
-            return ((ExamenWS.Pronostico.WSMeteorologico)(this)).pronosticoRegionalxIDAsync(inValue);
+            return ((ExamenWS.Prono.WSMeteorologico)(this)).pronosticoRegionalxIDAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        ExamenWS.Pronostico.pronosticoExtendidoCiudadResponse ExamenWS.Pronostico.WSMeteorologico.pronosticoExtendidoCiudad(ExamenWS.Pronostico.pronosticoExtendidoCiudadRequest request) {
+        ExamenWS.Prono.pronosticoExtendidoCiudadResponse ExamenWS.Prono.WSMeteorologico.pronosticoExtendidoCiudad(ExamenWS.Prono.pronosticoExtendidoCiudadRequest request) {
             return base.Channel.pronosticoExtendidoCiudad(request);
         }
         
-        public string pronosticoExtendidoCiudad(ExamenWS.Pronostico.pronosticoCiudad pronosticoExtendidoCiudad1) {
-            ExamenWS.Pronostico.pronosticoExtendidoCiudadRequest inValue = new ExamenWS.Pronostico.pronosticoExtendidoCiudadRequest();
+        public string pronosticoExtendidoCiudad(ExamenWS.Prono.pronosticoCiudad pronosticoExtendidoCiudad1) {
+            ExamenWS.Prono.pronosticoExtendidoCiudadRequest inValue = new ExamenWS.Prono.pronosticoExtendidoCiudadRequest();
             inValue.pronosticoExtendidoCiudad = pronosticoExtendidoCiudad1;
-            ExamenWS.Pronostico.pronosticoExtendidoCiudadResponse retVal = ((ExamenWS.Pronostico.WSMeteorologico)(this)).pronosticoExtendidoCiudad(inValue);
+            ExamenWS.Prono.pronosticoExtendidoCiudadResponse retVal = ((ExamenWS.Prono.WSMeteorologico)(this)).pronosticoExtendidoCiudad(inValue);
             return retVal.pronosticoExtendidoCiudadResponse1;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ExamenWS.Pronostico.pronosticoExtendidoCiudadResponse> ExamenWS.Pronostico.WSMeteorologico.pronosticoExtendidoCiudadAsync(ExamenWS.Pronostico.pronosticoExtendidoCiudadRequest request) {
+        System.Threading.Tasks.Task<ExamenWS.Prono.pronosticoExtendidoCiudadResponse> ExamenWS.Prono.WSMeteorologico.pronosticoExtendidoCiudadAsync(ExamenWS.Prono.pronosticoExtendidoCiudadRequest request) {
             return base.Channel.pronosticoExtendidoCiudadAsync(request);
         }
         
-        public System.Threading.Tasks.Task<ExamenWS.Pronostico.pronosticoExtendidoCiudadResponse> pronosticoExtendidoCiudadAsync(ExamenWS.Pronostico.pronosticoCiudad pronosticoExtendidoCiudad) {
-            ExamenWS.Pronostico.pronosticoExtendidoCiudadRequest inValue = new ExamenWS.Pronostico.pronosticoExtendidoCiudadRequest();
+        public System.Threading.Tasks.Task<ExamenWS.Prono.pronosticoExtendidoCiudadResponse> pronosticoExtendidoCiudadAsync(ExamenWS.Prono.pronosticoCiudad pronosticoExtendidoCiudad) {
+            ExamenWS.Prono.pronosticoExtendidoCiudadRequest inValue = new ExamenWS.Prono.pronosticoExtendidoCiudadRequest();
             inValue.pronosticoExtendidoCiudad = pronosticoExtendidoCiudad;
-            return ((ExamenWS.Pronostico.WSMeteorologico)(this)).pronosticoExtendidoCiudadAsync(inValue);
+            return ((ExamenWS.Prono.WSMeteorologico)(this)).pronosticoExtendidoCiudadAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        ExamenWS.Pronostico.pronosticoExtendidoCiudadxIDResponse ExamenWS.Pronostico.WSMeteorologico.pronosticoExtendidoCiudadxID(ExamenWS.Pronostico.pronosticoExtendidoCiudadxIDRequest request) {
+        ExamenWS.Prono.pronosticoExtendidoCiudadxIDResponse ExamenWS.Prono.WSMeteorologico.pronosticoExtendidoCiudadxID(ExamenWS.Prono.pronosticoExtendidoCiudadxIDRequest request) {
             return base.Channel.pronosticoExtendidoCiudadxID(request);
         }
         
         public string pronosticoExtendidoCiudadxID(int pronosticoExtendidoCiudadxID1) {
-            ExamenWS.Pronostico.pronosticoExtendidoCiudadxIDRequest inValue = new ExamenWS.Pronostico.pronosticoExtendidoCiudadxIDRequest();
+            ExamenWS.Prono.pronosticoExtendidoCiudadxIDRequest inValue = new ExamenWS.Prono.pronosticoExtendidoCiudadxIDRequest();
             inValue.pronosticoExtendidoCiudadxID = pronosticoExtendidoCiudadxID1;
-            ExamenWS.Pronostico.pronosticoExtendidoCiudadxIDResponse retVal = ((ExamenWS.Pronostico.WSMeteorologico)(this)).pronosticoExtendidoCiudadxID(inValue);
+            ExamenWS.Prono.pronosticoExtendidoCiudadxIDResponse retVal = ((ExamenWS.Prono.WSMeteorologico)(this)).pronosticoExtendidoCiudadxID(inValue);
             return retVal.pronosticoExtendidoCiudadxIDResponse1;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ExamenWS.Pronostico.pronosticoExtendidoCiudadxIDResponse> ExamenWS.Pronostico.WSMeteorologico.pronosticoExtendidoCiudadxIDAsync(ExamenWS.Pronostico.pronosticoExtendidoCiudadxIDRequest request) {
+        System.Threading.Tasks.Task<ExamenWS.Prono.pronosticoExtendidoCiudadxIDResponse> ExamenWS.Prono.WSMeteorologico.pronosticoExtendidoCiudadxIDAsync(ExamenWS.Prono.pronosticoExtendidoCiudadxIDRequest request) {
             return base.Channel.pronosticoExtendidoCiudadxIDAsync(request);
         }
         
-        public System.Threading.Tasks.Task<ExamenWS.Pronostico.pronosticoExtendidoCiudadxIDResponse> pronosticoExtendidoCiudadxIDAsync(int pronosticoExtendidoCiudadxID) {
-            ExamenWS.Pronostico.pronosticoExtendidoCiudadxIDRequest inValue = new ExamenWS.Pronostico.pronosticoExtendidoCiudadxIDRequest();
+        public System.Threading.Tasks.Task<ExamenWS.Prono.pronosticoExtendidoCiudadxIDResponse> pronosticoExtendidoCiudadxIDAsync(int pronosticoExtendidoCiudadxID) {
+            ExamenWS.Prono.pronosticoExtendidoCiudadxIDRequest inValue = new ExamenWS.Prono.pronosticoExtendidoCiudadxIDRequest();
             inValue.pronosticoExtendidoCiudadxID = pronosticoExtendidoCiudadxID;
-            return ((ExamenWS.Pronostico.WSMeteorologico)(this)).pronosticoExtendidoCiudadxIDAsync(inValue);
+            return ((ExamenWS.Prono.WSMeteorologico)(this)).pronosticoExtendidoCiudadxIDAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        ExamenWS.Pronostico.pronosticoExtendidoRegionResponse ExamenWS.Pronostico.WSMeteorologico.pronosticoExtendidoRegion(ExamenWS.Pronostico.pronosticoExtendidoRegionRequest request) {
+        ExamenWS.Prono.pronosticoExtendidoRegionResponse ExamenWS.Prono.WSMeteorologico.pronosticoExtendidoRegion(ExamenWS.Prono.pronosticoExtendidoRegionRequest request) {
             return base.Channel.pronosticoExtendidoRegion(request);
         }
         
-        public string pronosticoExtendidoRegion(ExamenWS.Pronostico.pronosticoRegion pronosticoExtendidoRegion1) {
-            ExamenWS.Pronostico.pronosticoExtendidoRegionRequest inValue = new ExamenWS.Pronostico.pronosticoExtendidoRegionRequest();
+        public string pronosticoExtendidoRegion(ExamenWS.Prono.pronosticoRegion pronosticoExtendidoRegion1) {
+            ExamenWS.Prono.pronosticoExtendidoRegionRequest inValue = new ExamenWS.Prono.pronosticoExtendidoRegionRequest();
             inValue.pronosticoExtendidoRegion = pronosticoExtendidoRegion1;
-            ExamenWS.Pronostico.pronosticoExtendidoRegionResponse retVal = ((ExamenWS.Pronostico.WSMeteorologico)(this)).pronosticoExtendidoRegion(inValue);
+            ExamenWS.Prono.pronosticoExtendidoRegionResponse retVal = ((ExamenWS.Prono.WSMeteorologico)(this)).pronosticoExtendidoRegion(inValue);
             return retVal.pronosticoExtendidoRegionResponse1;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ExamenWS.Pronostico.pronosticoExtendidoRegionResponse> ExamenWS.Pronostico.WSMeteorologico.pronosticoExtendidoRegionAsync(ExamenWS.Pronostico.pronosticoExtendidoRegionRequest request) {
+        System.Threading.Tasks.Task<ExamenWS.Prono.pronosticoExtendidoRegionResponse> ExamenWS.Prono.WSMeteorologico.pronosticoExtendidoRegionAsync(ExamenWS.Prono.pronosticoExtendidoRegionRequest request) {
             return base.Channel.pronosticoExtendidoRegionAsync(request);
         }
         
-        public System.Threading.Tasks.Task<ExamenWS.Pronostico.pronosticoExtendidoRegionResponse> pronosticoExtendidoRegionAsync(ExamenWS.Pronostico.pronosticoRegion pronosticoExtendidoRegion) {
-            ExamenWS.Pronostico.pronosticoExtendidoRegionRequest inValue = new ExamenWS.Pronostico.pronosticoExtendidoRegionRequest();
+        public System.Threading.Tasks.Task<ExamenWS.Prono.pronosticoExtendidoRegionResponse> pronosticoExtendidoRegionAsync(ExamenWS.Prono.pronosticoRegion pronosticoExtendidoRegion) {
+            ExamenWS.Prono.pronosticoExtendidoRegionRequest inValue = new ExamenWS.Prono.pronosticoExtendidoRegionRequest();
             inValue.pronosticoExtendidoRegion = pronosticoExtendidoRegion;
-            return ((ExamenWS.Pronostico.WSMeteorologico)(this)).pronosticoExtendidoRegionAsync(inValue);
+            return ((ExamenWS.Prono.WSMeteorologico)(this)).pronosticoExtendidoRegionAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        ExamenWS.Pronostico.pronosticoExtendidoRegionxIDResponse ExamenWS.Pronostico.WSMeteorologico.pronosticoExtendidoRegionxID(ExamenWS.Pronostico.pronosticoExtendidoRegionxIDRequest request) {
+        ExamenWS.Prono.pronosticoExtendidoRegionxIDResponse ExamenWS.Prono.WSMeteorologico.pronosticoExtendidoRegionxID(ExamenWS.Prono.pronosticoExtendidoRegionxIDRequest request) {
             return base.Channel.pronosticoExtendidoRegionxID(request);
         }
         
         public string pronosticoExtendidoRegionxID(int pronosticoExtendidoRegionxID1) {
-            ExamenWS.Pronostico.pronosticoExtendidoRegionxIDRequest inValue = new ExamenWS.Pronostico.pronosticoExtendidoRegionxIDRequest();
+            ExamenWS.Prono.pronosticoExtendidoRegionxIDRequest inValue = new ExamenWS.Prono.pronosticoExtendidoRegionxIDRequest();
             inValue.pronosticoExtendidoRegionxID = pronosticoExtendidoRegionxID1;
-            ExamenWS.Pronostico.pronosticoExtendidoRegionxIDResponse retVal = ((ExamenWS.Pronostico.WSMeteorologico)(this)).pronosticoExtendidoRegionxID(inValue);
+            ExamenWS.Prono.pronosticoExtendidoRegionxIDResponse retVal = ((ExamenWS.Prono.WSMeteorologico)(this)).pronosticoExtendidoRegionxID(inValue);
             return retVal.pronosticoExtendidoRegionxIDResponse1;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ExamenWS.Pronostico.pronosticoExtendidoRegionxIDResponse> ExamenWS.Pronostico.WSMeteorologico.pronosticoExtendidoRegionxIDAsync(ExamenWS.Pronostico.pronosticoExtendidoRegionxIDRequest request) {
+        System.Threading.Tasks.Task<ExamenWS.Prono.pronosticoExtendidoRegionxIDResponse> ExamenWS.Prono.WSMeteorologico.pronosticoExtendidoRegionxIDAsync(ExamenWS.Prono.pronosticoExtendidoRegionxIDRequest request) {
             return base.Channel.pronosticoExtendidoRegionxIDAsync(request);
         }
         
-        public System.Threading.Tasks.Task<ExamenWS.Pronostico.pronosticoExtendidoRegionxIDResponse> pronosticoExtendidoRegionxIDAsync(int pronosticoExtendidoRegionxID) {
-            ExamenWS.Pronostico.pronosticoExtendidoRegionxIDRequest inValue = new ExamenWS.Pronostico.pronosticoExtendidoRegionxIDRequest();
+        public System.Threading.Tasks.Task<ExamenWS.Prono.pronosticoExtendidoRegionxIDResponse> pronosticoExtendidoRegionxIDAsync(int pronosticoExtendidoRegionxID) {
+            ExamenWS.Prono.pronosticoExtendidoRegionxIDRequest inValue = new ExamenWS.Prono.pronosticoExtendidoRegionxIDRequest();
             inValue.pronosticoExtendidoRegionxID = pronosticoExtendidoRegionxID;
-            return ((ExamenWS.Pronostico.WSMeteorologico)(this)).pronosticoExtendidoRegionxIDAsync(inValue);
+            return ((ExamenWS.Prono.WSMeteorologico)(this)).pronosticoExtendidoRegionxIDAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        ExamenWS.Pronostico.efemeridesResponse ExamenWS.Pronostico.WSMeteorologico.efemerides(ExamenWS.Pronostico.efemeridesRequest request) {
+        ExamenWS.Prono.efemeridesResponse ExamenWS.Prono.WSMeteorologico.efemerides(ExamenWS.Prono.efemeridesRequest request) {
             return base.Channel.efemerides(request);
         }
         
-        public string efemerides(ExamenWS.Pronostico.efemerides efemerides1) {
-            ExamenWS.Pronostico.efemeridesRequest inValue = new ExamenWS.Pronostico.efemeridesRequest();
+        public string efemerides(ExamenWS.Prono.efemerides efemerides1) {
+            ExamenWS.Prono.efemeridesRequest inValue = new ExamenWS.Prono.efemeridesRequest();
             inValue.efemerides = efemerides1;
-            ExamenWS.Pronostico.efemeridesResponse retVal = ((ExamenWS.Pronostico.WSMeteorologico)(this)).efemerides(inValue);
+            ExamenWS.Prono.efemeridesResponse retVal = ((ExamenWS.Prono.WSMeteorologico)(this)).efemerides(inValue);
             return retVal.efemeridesResponse1;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ExamenWS.Pronostico.efemeridesResponse> ExamenWS.Pronostico.WSMeteorologico.efemeridesAsync(ExamenWS.Pronostico.efemeridesRequest request) {
+        System.Threading.Tasks.Task<ExamenWS.Prono.efemeridesResponse> ExamenWS.Prono.WSMeteorologico.efemeridesAsync(ExamenWS.Prono.efemeridesRequest request) {
             return base.Channel.efemeridesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<ExamenWS.Pronostico.efemeridesResponse> efemeridesAsync(ExamenWS.Pronostico.efemerides efemerides) {
-            ExamenWS.Pronostico.efemeridesRequest inValue = new ExamenWS.Pronostico.efemeridesRequest();
+        public System.Threading.Tasks.Task<ExamenWS.Prono.efemeridesResponse> efemeridesAsync(ExamenWS.Prono.efemerides efemerides) {
+            ExamenWS.Prono.efemeridesRequest inValue = new ExamenWS.Prono.efemeridesRequest();
             inValue.efemerides = efemerides;
-            return ((ExamenWS.Pronostico.WSMeteorologico)(this)).efemeridesAsync(inValue);
+            return ((ExamenWS.Prono.WSMeteorologico)(this)).efemeridesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        ExamenWS.Pronostico.fechaResponse ExamenWS.Pronostico.WSMeteorologico.fecha(ExamenWS.Pronostico.fechaRequest request) {
+        ExamenWS.Prono.fechaResponse ExamenWS.Prono.WSMeteorologico.fecha(ExamenWS.Prono.fechaRequest request) {
             return base.Channel.fecha(request);
         }
         
         public string fecha(string fecha1) {
-            ExamenWS.Pronostico.fechaRequest inValue = new ExamenWS.Pronostico.fechaRequest();
+            ExamenWS.Prono.fechaRequest inValue = new ExamenWS.Prono.fechaRequest();
             inValue.fecha = fecha1;
-            ExamenWS.Pronostico.fechaResponse retVal = ((ExamenWS.Pronostico.WSMeteorologico)(this)).fecha(inValue);
+            ExamenWS.Prono.fechaResponse retVal = ((ExamenWS.Prono.WSMeteorologico)(this)).fecha(inValue);
             return retVal.fechaResponse1;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ExamenWS.Pronostico.fechaResponse> ExamenWS.Pronostico.WSMeteorologico.fechaAsync(ExamenWS.Pronostico.fechaRequest request) {
+        System.Threading.Tasks.Task<ExamenWS.Prono.fechaResponse> ExamenWS.Prono.WSMeteorologico.fechaAsync(ExamenWS.Prono.fechaRequest request) {
             return base.Channel.fechaAsync(request);
         }
         
-        public System.Threading.Tasks.Task<ExamenWS.Pronostico.fechaResponse> fechaAsync(string fecha) {
-            ExamenWS.Pronostico.fechaRequest inValue = new ExamenWS.Pronostico.fechaRequest();
+        public System.Threading.Tasks.Task<ExamenWS.Prono.fechaResponse> fechaAsync(string fecha) {
+            ExamenWS.Prono.fechaRequest inValue = new ExamenWS.Prono.fechaRequest();
             inValue.fecha = fecha;
-            return ((ExamenWS.Pronostico.WSMeteorologico)(this)).fechaAsync(inValue);
+            return ((ExamenWS.Prono.WSMeteorologico)(this)).fechaAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        ExamenWS.Pronostico.horaResponse ExamenWS.Pronostico.WSMeteorologico.hora(ExamenWS.Pronostico.horaRequest request) {
+        ExamenWS.Prono.horaResponse ExamenWS.Prono.WSMeteorologico.hora(ExamenWS.Prono.horaRequest request) {
             return base.Channel.hora(request);
         }
         
         public string hora(string hora1) {
-            ExamenWS.Pronostico.horaRequest inValue = new ExamenWS.Pronostico.horaRequest();
+            ExamenWS.Prono.horaRequest inValue = new ExamenWS.Prono.horaRequest();
             inValue.hora = hora1;
-            ExamenWS.Pronostico.horaResponse retVal = ((ExamenWS.Pronostico.WSMeteorologico)(this)).hora(inValue);
+            ExamenWS.Prono.horaResponse retVal = ((ExamenWS.Prono.WSMeteorologico)(this)).hora(inValue);
             return retVal.horaResponse1;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ExamenWS.Pronostico.horaResponse> ExamenWS.Pronostico.WSMeteorologico.horaAsync(ExamenWS.Pronostico.horaRequest request) {
+        System.Threading.Tasks.Task<ExamenWS.Prono.horaResponse> ExamenWS.Prono.WSMeteorologico.horaAsync(ExamenWS.Prono.horaRequest request) {
             return base.Channel.horaAsync(request);
         }
         
-        public System.Threading.Tasks.Task<ExamenWS.Pronostico.horaResponse> horaAsync(string hora) {
-            ExamenWS.Pronostico.horaRequest inValue = new ExamenWS.Pronostico.horaRequest();
+        public System.Threading.Tasks.Task<ExamenWS.Prono.horaResponse> horaAsync(string hora) {
+            ExamenWS.Prono.horaRequest inValue = new ExamenWS.Prono.horaRequest();
             inValue.hora = hora;
-            return ((ExamenWS.Pronostico.WSMeteorologico)(this)).horaAsync(inValue);
+            return ((ExamenWS.Prono.WSMeteorologico)(this)).horaAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        ExamenWS.Pronostico.estadoActualRegionalResponse ExamenWS.Pronostico.WSMeteorologico.estadoActualRegional(ExamenWS.Pronostico.estadoActualRegionalRequest request) {
+        ExamenWS.Prono.estadoActualRegionalResponse ExamenWS.Prono.WSMeteorologico.estadoActualRegional(ExamenWS.Prono.estadoActualRegionalRequest request) {
             return base.Channel.estadoActualRegional(request);
         }
         
-        public string estadoActualRegional(ExamenWS.Pronostico.pronosticoRegion estadoActualRegional1) {
-            ExamenWS.Pronostico.estadoActualRegionalRequest inValue = new ExamenWS.Pronostico.estadoActualRegionalRequest();
+        public string estadoActualRegional(ExamenWS.Prono.pronosticoRegion estadoActualRegional1) {
+            ExamenWS.Prono.estadoActualRegionalRequest inValue = new ExamenWS.Prono.estadoActualRegionalRequest();
             inValue.estadoActualRegional = estadoActualRegional1;
-            ExamenWS.Pronostico.estadoActualRegionalResponse retVal = ((ExamenWS.Pronostico.WSMeteorologico)(this)).estadoActualRegional(inValue);
+            ExamenWS.Prono.estadoActualRegionalResponse retVal = ((ExamenWS.Prono.WSMeteorologico)(this)).estadoActualRegional(inValue);
             return retVal.estadoActualRegionalResponse1;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ExamenWS.Pronostico.estadoActualRegionalResponse> ExamenWS.Pronostico.WSMeteorologico.estadoActualRegionalAsync(ExamenWS.Pronostico.estadoActualRegionalRequest request) {
+        System.Threading.Tasks.Task<ExamenWS.Prono.estadoActualRegionalResponse> ExamenWS.Prono.WSMeteorologico.estadoActualRegionalAsync(ExamenWS.Prono.estadoActualRegionalRequest request) {
             return base.Channel.estadoActualRegionalAsync(request);
         }
         
-        public System.Threading.Tasks.Task<ExamenWS.Pronostico.estadoActualRegionalResponse> estadoActualRegionalAsync(ExamenWS.Pronostico.pronosticoRegion estadoActualRegional) {
-            ExamenWS.Pronostico.estadoActualRegionalRequest inValue = new ExamenWS.Pronostico.estadoActualRegionalRequest();
+        public System.Threading.Tasks.Task<ExamenWS.Prono.estadoActualRegionalResponse> estadoActualRegionalAsync(ExamenWS.Prono.pronosticoRegion estadoActualRegional) {
+            ExamenWS.Prono.estadoActualRegionalRequest inValue = new ExamenWS.Prono.estadoActualRegionalRequest();
             inValue.estadoActualRegional = estadoActualRegional;
-            return ((ExamenWS.Pronostico.WSMeteorologico)(this)).estadoActualRegionalAsync(inValue);
+            return ((ExamenWS.Prono.WSMeteorologico)(this)).estadoActualRegionalAsync(inValue);
         }
     }
 }
